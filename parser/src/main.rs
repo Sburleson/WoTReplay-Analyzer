@@ -19,6 +19,6 @@ pub fn main() {
 
     let file_name = "data.json";
     let mut file = std::fs::File::create(file_name).unwrap();
-    file.write_all(json_string_start.as_bytes());
-    file.write_all(json_string_end.as_bytes());
+    file.write_all(json_string_start.as_bytes()).unwrap();
+    file.write_all(json_string_end.as_bytes()).unwrap();
 }
