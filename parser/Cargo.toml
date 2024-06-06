@@ -1,0 +1,8 @@
+[package]
+name = "WoTReplay-Analyzer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde_json = "1.0.117"
+wot_replay_parser = "0.2.2"
